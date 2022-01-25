@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/flowers/static/css/main.3e66f08a.css",
+    "main.js": "/flowers/static/js/main.2d042137.js",
+    "index.html": "/flowers/index.html",
+    "main.3e66f08a.css.map": "/flowers/static/css/main.3e66f08a.css.map",
+    "main.2d042137.js.map": "/flowers/static/js/main.2d042137.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e66f08a.css",
+    "static/js/main.2d042137.js"
+  ]
+}
