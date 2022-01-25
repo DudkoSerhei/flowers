@@ -1,11 +1,7 @@
-import React from 'react';
+import React, { FC } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      123
-    </div>
-  );
-}
+import { Router } from './components';
+
+const App: FC = () => <Router />;
 
 export default App;
