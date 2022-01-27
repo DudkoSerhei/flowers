@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/flowers/static/css/main.28057ed1.css",
-    "main.js": "/flowers/static/js/main.9e6d6717.js",
+    "main.js": "/flowers/static/js/main.a0b7cfd6.js",
     "static/media/wreaths.png": "/flowers/static/media/wreaths.95df7bbd639ea816c9b1.png",
     "static/media/wreaths2.png": "/flowers/static/media/wreaths2.b3ded79fa9b2c9e85d1d.png",
     "index.html": "/flowers/index.html",
     "main.28057ed1.css.map": "/flowers/static/css/main.28057ed1.css.map",
-    "main.9e6d6717.js.map": "/flowers/static/js/main.9e6d6717.js.map"
+    "main.a0b7cfd6.js.map": "/flowers/static/js/main.a0b7cfd6.js.map"
   },
   "entrypoints": [
     "static/css/main.28057ed1.css",
-    "static/js/main.9e6d6717.js"
+    "static/js/main.a0b7cfd6.js"
   ]
 }
