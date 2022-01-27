@@ -1,16 +1,14 @@
 import React from 'react';
+import cn from 'classnames';
 import { NavLink } from 'react-router-dom';
 
 import { ROUTES } from '../../const';
 
 import styles from './index.module.scss';
 
-
-const Navigation = () => {
-
+const Navigation = ({ className }: any) => {
   return (
-
-    <nav className={styles.nav}>
+    <nav className={cn(styles.nav, className)}>
       <li className={styles.item}>
         <NavLink className={styles.link} to={ROUTES.WREATHS} >Венки ритуальные</NavLink>
       </li>

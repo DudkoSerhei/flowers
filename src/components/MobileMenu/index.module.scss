@@ -1,0 +1,100 @@
+.menu {
+  &__button {
+    width: 30px;
+    height: 30px;
+    transition: 0.3s all ease;
+    background-color: transparent;
+    border: 0;
+    z-index: 3;
+
+    &_active {
+      transform: rotate(360deg);
+
+      .menu__icon {
+        background-color: transparent;
+        &:before {
+          top: 0;
+          transform: rotate(-45deg);
+        }
+        &:after {
+          bottom: 0;
+          transform: rotate(45deg);
+        }
+      }
+    }
+  }
+
+  &__icon {
+    float: left;
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    position: relative;
+    transform: translateX(-6px);
+    transition: 0.3s all ease;
+
+    &:before {
+      content: '';
+      width: 30px;
+      height: 3px;
+      background-color: #000;
+      position: absolute;
+      top: -8px;
+      left: 0;
+    }
+
+    &:after {
+      content: '';
+      width: 30px;
+      height: 3px;
+      background-color: #000;
+      position: absolute;
+      bottom: -8px;
+      left: 0;
+    }
+  }
+
+  &__section {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    padding-top: 25px;
+    background-color: #fff;
+    visibility: hidden;
+    transition: 0.3s all ease;
+    opacity: 0;
+    overflow: hidden;
+
+    &_open {
+      visibility: visible;
+      left: 0;
+      opacity: 1;
+    }
+  }
+
+  &__nav {
+    list-style: none;
+    padding-top: 24px;
+  }
+
+  &__item {
+    margin-bottom: 12px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+  }
+
+  &__logo {
+    padding: 9.5px 10px;
+  }
+}

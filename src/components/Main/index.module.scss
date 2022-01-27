@@ -6,4 +6,8 @@
   flex-direction: inherit;
   justify-content: inherit;
   align-items: inherit;
+
+  @media (max-width: 1024px) {
+    width: 90%;
+  }
 }

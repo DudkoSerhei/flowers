@@ -1,6 +1,10 @@
 .container {
   position: relative;
   height: 600px;
+
+  @media (max-width: 1024px) {
+    height: 245px;
+  }
 }
 
 .banner {
@@ -8,6 +12,10 @@
   position: absolute;
   top: 150px;
   left: 250px;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 }
 
 .leftBtn {
@@ -20,6 +28,10 @@
   border: 0;
   border-radius: 0 55px 55px 0;
   cursor: pointer;
+
+  @media (max-width: 1024px) {
+    top: 30%;
+  }
 }
 
 .rightBtn {
@@ -32,6 +44,10 @@
   border: 0;
   border-radius: 55px 0 0 55px;
   cursor: pointer;
+
+  @media (max-width: 1024px) {
+    top: 30%;
+  }
 }
 
 .arrow {
@@ -69,4 +85,8 @@
 .img {
   width: 100%;
   filter: brightness(0.5);
+
+  @media (max-width: 1024px) {
+    height: 100%;
+  }
 };
