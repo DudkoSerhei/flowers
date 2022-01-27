@@ -4,12 +4,12 @@ import { Main } from '../../components';
 
 import styles from './index.module.scss';
 
-const WreathsPage = () => (
+const MoundsPage = () => (
   <div className={styles.container}>
     <Main>
-      Венки
+      Холмики
     </Main>
   </div>
 );
 
-export default WreathsPage;
+export default MoundsPage;
