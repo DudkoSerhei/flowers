@@ -1,10 +1,13 @@
+const debug = process.env.NODE_ENV !== 'production';
+const prefix = !debug ? '/matter' : ''; /* This is prefix for github.pages.io */
+
 const ROUTES = {
-  ROOT: '',
-  WREATHS: 'wreaths',
-  BASKETS: 'baskets',
-  MOUNDS: 'mounds',
-  FLOWERS: 'flowers',
-  COMPOSITIONS: 'compositions'
+  ROOT: `${prefix}`,
+  WREATHS: `${prefix}/wreaths`,
+  BASKETS: `${prefix}/baskets`,
+  MOUNDS: `${prefix}/mounds`,
+  FLOWERS: `${prefix}/flowers`,
+  COMPOSITIONS: `${prefix}/compositions`
 };
 
 export default ROUTES;
