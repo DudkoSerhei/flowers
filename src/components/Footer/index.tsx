@@ -4,9 +4,9 @@ import { Main, Contacts } from '../index';
 
 import styles from './index.module.scss';
 
-const Footer = () => (
+const Footer = ({ isContacts = true }) => (
   <footer className={styles.footer}>
-    <Contacts />
+    {isContacts && <Contacts />}
     <div className={styles.footer__wrapper}>
       <Main>
         <p className={styles.footer__text}>

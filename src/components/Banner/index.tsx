@@ -2,8 +2,8 @@ import React from 'react';
 import Slider from "react-slick";
 import { Link } from 'react-router-dom'; 
 
-import wreaths1 from './wreaths.png';
-import wreaths2 from './wreaths2.png';
+import slideOne from './images/wreaths.png';
+import slideTwo from './images/casket.png';
 import styles from './index.module.scss';
 
 const PrevArrow = (props: any) => (
@@ -40,14 +40,18 @@ const Banner = () => {
           <h1 className={styles.title}>Ритуальные услуги</h1>
           <Link to="" className={styles.btn}>Перейти в раздел</Link>
         </div>
-        <img className={styles.img} src={wreaths1} alt="wreaths" />
+        <img
+          className={styles.img}
+          src={slideOne}
+          alt="wreaths"
+        />
       </div>
       <div className={styles.container}>
         <div className={styles.banner}>
           <h1 className={styles.title}>Ритуальные услуги</h1>
           <Link to="" className={styles.btn}>Перейти в раздел</Link>
         </div>
-        <img className={styles.img} src={wreaths2} alt="wreaths" />
+        <img className={styles.img} src={slideTwo} alt="wreaths" />
       </div>
     </Slider>
   )

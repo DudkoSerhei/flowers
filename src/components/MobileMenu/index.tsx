@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import cn from 'classnames';
 import { NavLink } from 'react-router-dom';
 
-import { Main, Logo } from '../index';
+import { Main, Footer } from '../index';
 import { ROUTES } from '../../const';
 
 import styles from './index.module.scss';
@@ -10,13 +10,15 @@ import styles from './index.module.scss';
 const MobileMenu = ({ className }: any) => {
   const [isOpen, setOpen] = useState(false);
 
+  const toggleMenu = () => setOpen((prev) => !prev);
+
   useEffect(() => {
     if (isOpen) {
-      window.onscroll = function () { window.scrollTo(0, 0); };
-    }
+      document.body.classList.add('stop-scrolling');
+    } else {
+      document.body.classList.remove('stop-scrolling');
+    };
   }, [isOpen]);
-
-  const toggleMenu = () => setOpen((prev) => !prev);
 
   const buttonClassName = cn(styles.menu__button, {
     [styles.menu__button_active]: isOpen,
@@ -33,7 +35,6 @@ const MobileMenu = ({ className }: any) => {
       </button>
       <section className={sectionClassName}>
         <Main>
-          <Logo className={styles.menu__logo} onClick={toggleMenu} />
           <nav className={styles.menu__nav}>
             <li className={styles.menu__item}>
               <NavLink className={styles.menu__link} to={ROUTES.WREATHS} onClick={toggleMenu}>Венки ритуальные</NavLink>
@@ -52,6 +53,7 @@ const MobileMenu = ({ className }: any) => {
             </li>
           </nav>
         </Main>
+        <Footer isContacts={false} />
       </section>
     </div>
   );

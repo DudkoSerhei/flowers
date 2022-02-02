@@ -8,7 +8,7 @@ import styles from './index.module.scss';
 
 const Logo = ({ className, onClick = () => {} }: any) => (
   <Link className={cn(styles.logo, className)} onClick={onClick} to={ROUTES.ROOT}>
-    Flowers
+    Venochek.by
   </Link>
 );
 

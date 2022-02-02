@@ -1,0 +1,22 @@
+.info {
+  padding: 20px 0;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__wrapper {
+    padding-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+
+    @media (max-width: 1024px) {
+      width: 100%;
+    }
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: 2;
+  }
+}
