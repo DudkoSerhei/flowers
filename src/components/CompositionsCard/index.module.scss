@@ -1,0 +1,41 @@
+.compositions {
+
+  &__img {
+    box-shadow: -1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+  }
+  &__cod {
+    margin: 10px 0;
+    text-align: end;
+    font-size: 14px;
+    color: #484848;
+
+    @media (max-width: 1024px) {
+      font-size: 10px;
+    }
+  }
+  &__title {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: cadetblue;
+
+    @media (max-width: 1024px) {
+      font-size: 14px;
+    }
+  }
+  &__price {
+    font-weight: 500;
+    color: saddlebrown;
+
+    @media (max-width: 1024px) {
+      font-size: 12px;
+    }
+  }
+  &__number {
+    font-size: 18px;
+    color: tomato;
+
+    @media (max-width: 1024px) {
+      font-size: 14px;
+    }
+  }
+}

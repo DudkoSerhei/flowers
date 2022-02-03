@@ -13,7 +13,7 @@ const Contacts = () => (
       </div>
       <div className={styles.contacts__column}>
         <h5 className={styles.contacts__title}>Контакты</h5>
-        <a href='tel:+375291234567' className={styles.contacts__link}>+375-29-123-45-67, Виктор</a>
+        <a href='tel:+375291234567' className={styles.contacts__link}>+375-29-123-45-67 (МТС)</a>
       </div>
       <div className={styles.contacts__column}>
         <h5 className={styles.contacts__title}>Почта</h5>

@@ -37,8 +37,8 @@ const Banner = () => {
     <Slider {...settings}>
       <div className={styles.container}>
         <div className={styles.banner}>
-          <h1 className={styles.title}>Ритуальные услуги</h1>
-          <Link to="" className={styles.btn}>Перейти в раздел</Link>
+          <h1 className={styles.title}>Venochek.by</h1>
+          <Link to="" className={styles.link}>Перейти в раздел</Link>
         </div>
         <img
           className={styles.img}
@@ -48,8 +48,8 @@ const Banner = () => {
       </div>
       <div className={styles.container}>
         <div className={styles.banner}>
-          <h1 className={styles.title}>Ритуальные услуги</h1>
-          <Link to="" className={styles.btn}>Перейти в раздел</Link>
+          <h1 className={styles.title}>Venochek.by</h1>
+          <Link to="" className={styles.link}>Перейти в раздел</Link>
         </div>
         <img className={styles.img} src={slideTwo} alt="wreaths" />
       </div>

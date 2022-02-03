@@ -12,9 +12,9 @@
   position: absolute;
   top: 150px;
   left: 250px;
-
   @media (max-width: 1024px) {
-    display: none;
+    top: 50px;
+    left: 120px;
   }
 }
 
@@ -63,9 +63,14 @@
   font-size: 70px;
   color: #fff;
   font-weight: normal;
+
+  @media (max-width: 1024px) {
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
 }
 
-.btn {
+.link {
   padding-bottom: 12px;
   font-size: 13px;
   letter-spacing: 2px;
@@ -74,9 +79,13 @@
   color: #fff;
   border-bottom: solid 2px #fff;
   transition: 0.3s all ease;
+
+  @media (max-width: 1024px) {
+    font-size: 8px;
+  }
 }
 
-.btn:hover {
+.link:hover {
   text-decoration: none;
   color: cyan;
   border-bottom: solid 2px cyan;
