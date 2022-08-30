@@ -1,0 +1,57 @@
+.view {
+  &__img {
+    box-shadow: -1px 1px 8px 0px rgba(34, 60, 80, 0.2);
+  }
+
+  &__button {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    cursor: pointer;
+  }
+
+  &__content {
+    position: relative;
+    padding: 0 !important;
+  }
+
+  &__slider {
+    max-width: 430px;
+  }
+
+  &__close {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+    &Icon {
+      color: darkcyan;
+    }
+  }
+
+  &__slide {
+    max-height: 620px;
+  }
+
+  &__dots {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+    button {
+      width: 12px;
+      height: 12px;
+      background-color: darkcyan;
+      border: 0;
+      border-radius: 50%;
+      text-indent: -9999px;
+      cursor: pointer;
+      margin: 0 10px;
+    }
+  }
+}

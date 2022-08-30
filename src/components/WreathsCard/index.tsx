@@ -1,23 +1,31 @@
 import React from 'react';
 import cn from 'classnames';
 
+import ImageView from '../ImageView';
+
 import styles from './index.module.scss';
 
 interface Props {
   className?: string;
-  image: string;
-  cod: number;
-  title: string;
+  image?: string;
+  images?: string[];
+  code: string;
   price: string;
 };
 
 
-const WreathsCard = ({className, image, cod, title, price}:Props) => (
+const WreathsCard = ({className, image, images, code, price}:Props) => (
   <div className={cn(styles.wreaths, className)}>
-    <img className={styles.wreaths__img} src={image} alt="wreaths" />
-    <p className={styles.wreaths__cod}>{`Код: ${cod}`}</p>
-    <h3 className={styles.wreaths__title}>{title}</h3>
-    <p className={styles.wreaths__price}>Цена: <b className={styles.wreaths__number}>{price}</b></p>
+    <ImageView image={image} images={images} />
+    <div className={styles.wreaths__info}>
+      <div className={styles.wreaths__column}>
+        <p className={styles.wreaths__code}>{`Код: ${code}`}</p>
+        <p className={styles.wreaths__variants}>{`Варианты: ${images?.length || '1'}шт`}</p>
+      </div>
+      <p className={styles.wreaths__price}>
+        Цена: {price ? <b className={styles.wreaths__number}>{price}руб</b> : '???'}
+      </p>
+    </div>
   </div>
 );
 

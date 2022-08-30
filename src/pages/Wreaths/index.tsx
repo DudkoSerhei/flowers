@@ -13,14 +13,20 @@ const WreathsPage = () => (
     <div className={styles.wrapper}>
       <Main>
         <div className={styles.product}>
-          {wreaths.map((wreath) => (
+          {wreaths.map(({
+            id,
+            image,
+            images = [],
+            code,
+            price,
+          }) => (
             <WreathsCard
-              key={wreath.id}
               className={styles.card}
-              image={wreath.image}
-              cod={wreath.cod}
-              title={wreath.title}
-              price={wreath.price}
+              key={id}
+              image={image}
+              images={images}
+              code={code}
+              price={price}
             />
           ))}
         </div>
