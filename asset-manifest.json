@@ -1,32 +1,32 @@
 {
   "files": {
     "main.css": "/flowers/static/css/main.9e38c01c.css",
-    "main.js": "/flowers/static/js/main.0f0a4d34.js",
-    "static/media/3.png": "/flowers/static/media/3.a90ea55f14bfaf715b30.png",
-    "static/media/5.png": "/flowers/static/media/5.52d9ae33634ed33f0954.png",
-    "static/media/1.png": "/flowers/static/media/1.cc4c832d5d0a87de11a0.png",
-    "static/media/4.png": "/flowers/static/media/4.37b4cdef82ea07e6c342.png",
-    "static/media/2.png": "/flowers/static/media/2.fa1f7c6ad0db5db56ee7.png",
-    "static/media/КБ-2(91₽).png": "/flowers/static/media/КБ-2(91₽).bc9a6cc5ed4c387cf364.png",
-    "static/media/12.png": "/flowers/static/media/12.dde68c64ec9efb216851.png",
-    "static/media/13.png": "/flowers/static/media/13.105b6992c9c42e34c9cc.png",
-    "static/media/6.png": "/flowers/static/media/6.02a8a3bdab7d617de9f7.png",
-    "static/media/11.png": "/flowers/static/media/11.fde3a3838cb157647348.png",
-    "static/media/10.png": "/flowers/static/media/10.8ffc11384e54292b39c7.png",
-    "static/media/14.png": "/flowers/static/media/14.50f4ee251857b6ae7522.png",
-    "static/media/8.png": "/flowers/static/media/8.73c020364eb882d97e2f.png",
-    "static/media/9.png": "/flowers/static/media/9.6f6ebb3f68532a8eea22.png",
-    "static/media/КБ-5(59₽).png": "/flowers/static/media/КБ-5(59₽).fbaca0a88448db280102.png",
-    "static/media/7.png": "/flowers/static/media/7.7c88d966f635d0b99e97.png",
+    "main.js": "/flowers/static/js/main.fb934646.js",
+    "static/media/3.png": "/flowers/static/media/3.d72f5fa8c6eb3d0b8898.png",
+    "static/media/4.png": "/flowers/static/media/4.3c16f574c1235200522e.png",
+    "static/media/2.png": "/flowers/static/media/2.79b430b8bbc6d9ca3653.png",
+    "static/media/5.png": "/flowers/static/media/5.cb9b279e938cdff8d5ea.png",
+    "static/media/1.png": "/flowers/static/media/1.76b8cd6a38c53bbb63f4.png",
+    "static/media/10.png": "/flowers/static/media/10.8b6f9c88fe78677adaf4.png",
+    "static/media/14.png": "/flowers/static/media/14.9c1927e2d24c9b2369af.png",
+    "static/media/КБ-2(91₽).png": "/flowers/static/media/КБ-2(91₽).ff055d6550a56aa5deef.png",
+    "static/media/6.png": "/flowers/static/media/6.b0e04fcd242e838861c9.png",
+    "static/media/13.png": "/flowers/static/media/13.4869cab23406a6b0ae7d.png",
+    "static/media/9.png": "/flowers/static/media/9.b347cb5b430ab1a20ef9.png",
+    "static/media/12.png": "/flowers/static/media/12.f406fd046d026c886940.png",
+    "static/media/11.png": "/flowers/static/media/11.6f4a3f8bd60adf8fa97d.png",
+    "static/media/КБ-5(59₽).png": "/flowers/static/media/КБ-5(59₽).2440e2e8cc0c6756b0d5.png",
+    "static/media/8.png": "/flowers/static/media/8.3d6b304d1cb13295ef47.png",
+    "static/media/7.png": "/flowers/static/media/7.91aeb790756b95b697aa.png",
     "static/media/wreaths.png": "/flowers/static/media/wreaths.95df7bbd639ea816c9b1.png",
     "static/media/casket.png": "/flowers/static/media/casket.b3ded79fa9b2c9e85d1d.png",
     "static/media/flower.svg": "/flowers/static/media/flower.6a28b285f13833a091fce964e21ae169.svg",
     "index.html": "/flowers/index.html",
     "main.9e38c01c.css.map": "/flowers/static/css/main.9e38c01c.css.map",
-    "main.0f0a4d34.js.map": "/flowers/static/js/main.0f0a4d34.js.map"
+    "main.fb934646.js.map": "/flowers/static/js/main.fb934646.js.map"
   },
   "entrypoints": [
     "static/css/main.9e38c01c.css",
-    "static/js/main.0f0a4d34.js"
+    "static/js/main.fb934646.js"
   ]
 }
