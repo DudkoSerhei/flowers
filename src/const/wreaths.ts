@@ -160,8 +160,8 @@ import yo6_3 from './images/ЯО-6/3.png';
 const wreaths = [
   {
     id: 1,
-    image: dsg1,
-    images: [dsg1, dsg2, dsg3, dsg4, dsg5],
+    image: 'https://i.ibb.co/QvCdRgm/1.png',
+    images: ['https://i.ibb.co/QvCdRgm/1.png', 'https://i.ibb.co/64pT7yC/Photo-Room-001-20220819-214959.png', 'https://i.ibb.co/4JhP2yr/Photo-Room-002-20220819-214959.png', 'https://i.ibb.co/p3nY0WR/Photo-Room-003-20220819-214959.png', 'https://i.ibb.co/NpmCHwK/Photo-Room-004-20220819-214959.png'],
     code: 'ДСГ',
     price: '36',
   },
