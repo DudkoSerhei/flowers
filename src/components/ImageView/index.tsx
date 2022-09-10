@@ -45,9 +45,9 @@ const ImageView = ({ className, image, images }: ImageViewProps) => {
     <>
       {images && images?.length > 0 ?
         <button className={cn(styles.view__button)} type='button' onClick={handleOpen}>
-          <img className={styles.view__img} src={image} alt={`view_${image}`} />
+          <img className={styles.view__img} src={image} alt={`view_${image}`} loading='lazy' />
         </button> :
-        <img className={cn(styles.view__img, className)} src={image} alt={`view_${image}`} />
+        <img className={cn(styles.view__img, className)} src={image} alt={`view_${image}`} loading='lazy' />
       }
       {isFullView &&
         <Dialog
@@ -66,7 +66,7 @@ const ImageView = ({ className, image, images }: ImageViewProps) => {
             <Slider {...settings}>
               {images?.map((img) => (
                 <div className={styles.view__slide}>
-                  <img className={cn(styles.view__img, className)} src={img} alt={`view_${img}`} />
+                  <img className={cn(styles.view__img, className)} src={img} alt={`view_${img}`} loading='lazy' />
                 </div>
               ))}
             </Slider>
