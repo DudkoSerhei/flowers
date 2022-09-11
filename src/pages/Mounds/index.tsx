@@ -16,7 +16,7 @@ const MoundsPage = () => (
             <WreathsCard
               key={wreath.id}
               className={styles.card}
-              image={wreath.image}
+              images={wreath.images}
               code={wreath.code}
               price={wreath.price}
             />

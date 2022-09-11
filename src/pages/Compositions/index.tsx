@@ -1,8 +1,6 @@
 import React from 'react';
 
 import { Main } from '../../components';
-import CompositionsCard from '../../components/CompositionsCard';
-import compositions from '../../const/compositions';
 
 import styles from './index.module.scss';
 
@@ -12,16 +10,7 @@ const CompositionsPage = () => (
     <div className={styles.wrapper}>
       <Main>
         <div className={styles.product}>
-          {compositions.map((composition) => (
-            <CompositionsCard
-              key={composition.id}
-              className={styles.card}
-              image={composition.image}
-              cod={composition.cod}
-              title={composition.title}
-              price={composition.price}
-            />
-          ))}
+          <p className={styles.product__text}>Раздел находится в стадии разработки.</p>
         </div>
       </Main>
     </div>

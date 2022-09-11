@@ -7,24 +7,27 @@ import styles from './index.module.scss';
 
 interface Props {
   className?: string;
-  image?: string;
-  images?: string[];
+  images: string[];
   code: string;
   price: string;
 };
 
 
-const WreathsCard = ({className, image, images, code, price}:Props) => (
+const WreathsCard = ({className, images, code, price}:Props) => (
   <div className={cn(styles.wreaths, className)}>
-    <ImageView image={image} images={images} />
+    <ImageView images={images} />
     <div className={styles.wreaths__info}>
-      <div className={styles.wreaths__column}>
-        <p className={styles.wreaths__code}>{`Код: ${code}`}</p>
-        <p className={styles.wreaths__variants}>{`Варианты: ${images?.length || '1'}шт`}</p>
-      </div>
-      <p className={styles.wreaths__price}>
-        Цена: {price ? <b className={styles.wreaths__number}>{price}руб</b> : '???'}
-      </p>
+      <p className={styles.wreaths__code}>{code}</p>
+      {price &&
+        <p className={styles.wreaths__price}>
+          Цена: <b className={styles.wreaths__number}>{price}руб</b>
+        </p>
+      }
+      {!price &&
+        <p className={styles.wreaths__price}>
+          Цену уточняйте
+        </p>
+      }
     </div>
   </div>
 );

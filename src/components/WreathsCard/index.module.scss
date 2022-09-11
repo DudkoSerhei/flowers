@@ -28,13 +28,4 @@
       font-size: 12px;
     }
   }
-
-  &__variants {
-    font-size: 12px;
-    color: darkcyan;
-
-    @media (max-width: 1024px) {
-      font-size: 10px;
-    }
-  }
 }

@@ -9,15 +9,17 @@ const Contacts = () => (
     <Main>
       <div className={styles.contacts__column}>
         <h5 className={styles.contacts__title}>Адрес</h5>
-        <p className={styles.contacts__text}>г.Гродно, ул.Пролетарская, 2</p>
+        <p className={styles.contacts__text}>г.Гродно</p>
       </div>
       <div className={styles.contacts__column}>
         <h5 className={styles.contacts__title}>Контакты</h5>
-        <a href='tel:+375291234567' className={styles.contacts__link}>+375-29-123-45-67 (МТС)</a>
+        <a href='tel:+375292832023' className={styles.contacts__link}>+375-29-283-20-23 Виктор</a>
+        <a href='tel:375336744614' className={styles.contacts__link}>+375-33-674-46-14 Марина</a>
       </div>
       <div className={styles.contacts__column}>
-        <h5 className={styles.contacts__title}>Почта</h5>
-        <a href='mailto:bestIP@gmail.com' className={styles.contacts__link}>bestIP@gmail.com</a>
+        <h5 className={styles.contacts__title}>Время работы</h5>
+        <p className={styles.contacts__text}>Ежедневно</p>
+        <p className={styles.contacts__text}>9:00-21:00</p>
       </div>
       <div className={styles.contacts__column}>
         <h5 className={styles.contacts__title}>Месенджеры</h5>

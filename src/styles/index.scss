@@ -64,12 +64,6 @@ select {
   overflow: hidden;
 }
 
-.slick-active {
-  button {
-    background-color: black;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;

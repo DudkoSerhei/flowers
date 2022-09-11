@@ -10,7 +10,7 @@ const Footer = ({ isContacts = true }) => (
     <div className={styles.footer__wrapper}>
       <Main>
         <p className={styles.footer__text}>
-          {`Поведайчик CORP © - ${new Date().getFullYear()}`}
+          {`okvenok © - ${new Date().getFullYear()}`}
         </p>
       </Main>
     </div>

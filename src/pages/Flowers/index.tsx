@@ -12,16 +12,7 @@ const FlowersPage = () => (
     <div className={styles.wrapper}>
       <Main>
         <div className={styles.product}>
-          {flowers.map((flower) => (
-            <FlowersCard
-              key={flower.id}
-              className={styles.card}
-              image={flower.image}
-              cod={flower.cod}
-              title={flower.title}
-              price={flower.price}
-            />
-          ))}
+          <p className={styles.product__text}>Раздел находится в стадии разработки.</p>
         </div>
       </Main>
     </div>

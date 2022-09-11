@@ -1,0 +1,26 @@
+.select {
+  &__label {
+    color: black;
+  }
+
+  &__view {
+    color: black;
+
+    &::after {
+      border-color: darkcyan !important;
+    }
+  }
+
+  &__item {
+    color: black;
+  }
+
+  &__focused {
+    color: darkcyan !important;
+  }
+
+  &__selected {
+    color: darkcyan !important;
+    background-color: rgba($color: darkcyan, $alpha: 0.1) !important;
+  }
+}

@@ -8,5 +8,6 @@ export { default as About } from './About';
 export { default as Contacts } from './Contacts';
 export { default as MobileMenu } from './MobileMenu';
 export { default as Banner } from './Banner';
-export { default as Information } from './Information';
 export { default as ImageView } from './ImageView';
+export { default as Select } from './Select';
+export { default as WreathsCard } from './WreathsCard';
