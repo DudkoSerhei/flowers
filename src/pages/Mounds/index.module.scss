@@ -1,5 +1,9 @@
 .container {
   min-height: calc(100vh - 300px);
+
+  @media (max-width: 1024px) {
+    min-height: calc(100vh - 623px);
+  }
 }
 .wrapper {
   background-color: whitesmoke;
