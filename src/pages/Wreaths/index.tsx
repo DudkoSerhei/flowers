@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import classNames from 'classnames';
 import { SelectChangeEvent } from '@mui/material';
 
 import { Main, Select, WreathsCard } from '../../components';
@@ -15,8 +14,8 @@ const WreathsPage = () => {
   };
 
   const sortedWreaths = wreaths.sort((first: any, second: any) => {
-    if (sort === 'low') return parseFloat(first.price) - parseFloat(second.price);
-    if (sort === 'high') return parseFloat(second.price) - parseFloat(first.price);
+    if (sort === 'high') return parseFloat(first.price) - parseFloat(second.price);
+    if (sort === 'low') return parseFloat(second.price) - parseFloat(first.price);
     return first.code - second.code;
   });
 
@@ -26,7 +25,7 @@ const WreathsPage = () => {
       <div className={styles.wrapper}>
         <Main>
           <div className={styles.product__header}>
-            <p className={styles.product__title}>Венки в ассортименте. Индивидуальные работы по желанию заказчика. Примеры в карусели.</p>
+            {/* <p className={styles.product__title}>Венки в ассортименте. Индивидуальные работы по желанию заказчика. Примеры в карусели.</p> */}
             <Select
               className={styles.product__select}
               value={sort}

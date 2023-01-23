@@ -46,6 +46,7 @@
 
   &__select {
     width: 180px;
+    margin-left: auto !important;
 
     @media (max-width: 1024px) {
       margin-top: 10px !important;

@@ -16,14 +16,14 @@
   border-bottom: solid 2px transparent;
 
   &:hover {
-    color: darkcyan;
-    border-color: darkcyan;
+    color: saddlebrown;
+    border-color: saddlebrown;
   }
 }
 
 :global {
   .active {
-    color: darkcyan;
-    border-color: darkcyan;
+    color: saddlebrown;
+    border-color: saddlebrown;
   }
 }

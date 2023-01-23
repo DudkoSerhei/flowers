@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 import slideOne from './images/wreaths.png';
 import slideTwo from './images/casket.png';
+import logo from './images/logo.png';
+import rose from './images/rose4.jpg';
 import styles from './index.module.scss';
 
 const PrevArrow = (props: any) => (
@@ -34,26 +36,18 @@ const settings = {
 const Banner = () => {
 
   return (
-    <Slider {...settings}>
-      <div className={styles.container}>
-        <div className={styles.banner}>
-          <h1 className={styles.title}>okvenok</h1>
-          <Link to="" className={styles.link}>Перейти в раздел</Link>
-        </div>
-        <img
-          className={styles.img}
-          src={slideOne}
-          alt="wreaths"
-        />
-      </div>
-      <div className={styles.container}>
-        <div className={styles.banner}>
-          <h1 className={styles.title}>okvenok</h1>
-          <Link to="" className={styles.link}>Перейти в раздел</Link>
-        </div>
-        <img className={styles.img} src={slideTwo} alt="wreaths" />
-      </div>
-    </Slider>
+    <div className={styles.banner}>
+      {/* <img
+        className={styles.banner__logo}
+        src={rose}
+        alt="Logo"
+      /> */}
+      <img
+        className={styles.banner__logo}
+        src={logo}
+        alt="Logo"
+      />
+    </div>
   )
 };
 

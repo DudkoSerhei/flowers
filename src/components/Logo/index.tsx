@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import { ROUTES } from '../../const';
 
+import logo from './logo.png';
 import styles from './index.module.scss';
 
 interface LogoProps {
@@ -13,7 +14,11 @@ interface LogoProps {
 
 const Logo = ({ className, onClick = () => {} }: LogoProps) => (
   <Link className={cn(styles.logo, className)} onClick={onClick} to={ROUTES.ROOT}>
-    okvenok
+    <img
+      className={styles.logo__icon}
+      src={logo}
+      alt="Logo"
+    />
   </Link>
 );
 

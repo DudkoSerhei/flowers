@@ -8,16 +8,16 @@
   transition: 0.3s all ease;
 
   &__icon {
-    width: 40px;
-    height: 40px;
-    transition: 0.3s all ease;
+    filter: brightness(0.01);
+    width: 100px;
   }
 
   &:hover {
-    color: darkcyan;
+    color: saddlebrown;
 
     .logo__icon {
-      filter: invert(27%) sepia(98%) saturate(1840%) hue-rotate(161deg) brightness(93%) contrast(101%);
+      filter: brightness(1);
+      filter: invert(27%) sepia(100%) saturate(609%) hue-rotate(349deg) brightness(91%) contrast(93%);
     }
   }
 };

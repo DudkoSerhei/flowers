@@ -34,7 +34,8 @@
     padding-top: 40px;
     text-align: center;
     border-radius: 50%;
-    background: darkcyan;
+    background-image: url('./images/fon.png');
+    background-size: cover;
 
     @media (max-width: 1024px) {
       margin-bottom: 40px;

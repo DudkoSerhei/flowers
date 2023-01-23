@@ -12,7 +12,6 @@ import styles from './index.module.scss';
 
 const About = () => (
   <div className={styles.advantages__about}>
-    <h1 className={styles.advantages__title}>Почему именно мы ?!</h1>
     <Main>
       <div className={styles.advantages}>
         <div className={styles.advantages__item}>
