@@ -37,7 +37,7 @@ const wreaths = [
   },
   {
     id: 7,
-    images: ['https://i.ibb.co/C9vKZKQ/2-91.png', 'https://i.ibb.co/bJhJJhH/Photo-Room-001-20230115-191515.png'],
+    images: ['https://i.ibb.co/C9vKZKQ/2-91.png', 'https://i.ibb.co/bJhJJhH/Photo-Room-001-20230115-191515.png', "https://i.ibb.co/102wy3j/Photo-Room-003-20230124-230341.png"],
     code: 'КБ-2',
     price: '91',
   },
@@ -49,7 +49,7 @@ const wreaths = [
   },
   {
     id: 9,
-    images: ['https://i.ibb.co/k83McN3/1.png', 'https://i.ibb.co/fCp1NbY/2.png'],
+    images: ['https://i.ibb.co/k83McN3/1.png', 'https://i.ibb.co/fCp1NbY/2.png', "https://i.ibb.co/dgcgyJc/Photo-Room-000-20230124-230341.png"],
     code: 'КБ-6',
     price: '69',
   },
@@ -61,7 +61,7 @@ const wreaths = [
   },
   {
     id: 11,
-    images: ['https://i.ibb.co/cYcnm3j/1.png', 'https://i.ibb.co/HxcSvH1/2.png', 'https://i.ibb.co/FwRmrvR/3.png', 'https://i.ibb.co/mXsXB25/4.png', 'https://i.ibb.co/9qjS0wT/5.png'],
+    images: ['https://i.ibb.co/cYcnm3j/1.png', 'https://i.ibb.co/HxcSvH1/2.png', 'https://i.ibb.co/FwRmrvR/3.png', 'https://i.ibb.co/mXsXB25/4.png', 'https://i.ibb.co/9qjS0wT/5.png', "https://i.ibb.co/SJVw7yJ/Photo-Room-008-20230124-230341.png"],
     code: 'КВР-21',
     price: '46',
   },
@@ -73,19 +73,19 @@ const wreaths = [
   },
   {
     id: 13,
-    images: ['https://i.ibb.co/FwgC6C8/1.png', 'https://i.ibb.co/JmRCF9J/2.png', 'https://i.ibb.co/48sQLks/3.png', 'https://i.ibb.co/QP4R3rb/4.png'],
+    images: ['https://i.ibb.co/FwgC6C8/1.png', 'https://i.ibb.co/JmRCF9J/2.png', 'https://i.ibb.co/48sQLks/3.png', 'https://i.ibb.co/QP4R3rb/4.png', "https://i.ibb.co/FzyvWHC/Photo-Room-004-20230124-230341.png", "https://i.ibb.co/mzLKJ2v/Photo-Room-005-20230124-230341.png"],
     code: 'КС-2',
     price: '36',
   },
   {
     id: 14,
-    images: ['https://i.ibb.co/RBYZqgR/1.png', 'https://i.ibb.co/jMK2NGf/2.png', 'https://i.ibb.co/wQwzxpy/3.png', 'https://i.ibb.co/m0Gr2Z3/4.png', 'https://i.ibb.co/NjWrhjz/5.png', 'https://i.ibb.co/Z2Mr913/6.png', 'https://i.ibb.co/4ZT0xxC/7.png', 'https://i.ibb.co/KzqXs6p/Photo-Room-004-20230115-163235.png'],
+    images: ['https://i.ibb.co/RBYZqgR/1.png', 'https://i.ibb.co/jMK2NGf/2.png', 'https://i.ibb.co/wQwzxpy/3.png', 'https://i.ibb.co/m0Gr2Z3/4.png', 'https://i.ibb.co/NjWrhjz/5.png', 'https://i.ibb.co/Z2Mr913/6.png', 'https://i.ibb.co/4ZT0xxC/7.png', 'https://i.ibb.co/KzqXs6p/Photo-Room-004-20230115-163235.png', "https://i.ibb.co/JmZwLqY/Photo-Room-002-20230124-230341.png"],
     code: 'КС-3',
     price: '',
   },
   {
     id: 15,
-    images: ['https://i.ibb.co/7bHMjC7/1.png', 'https://i.ibb.co/X8nbQNq/2.png', 'https://i.ibb.co/R3SxsYt/3.png', 'https://i.ibb.co/NxXDQ02/4.png', 'https://i.ibb.co/87Qb1PV/5.png', 'https://i.ibb.co/QM5RzXd/6.png', 'https://i.ibb.co/rvHD2Nm/Photo-Room-000-20230115-163235.png', 'https://i.ibb.co/n076w78/Photo-Room-001-20230115-163235.png'],
+    images: ['https://i.ibb.co/n076w78/Photo-Room-001-20230115-163235.png', 'https://i.ibb.co/7bHMjC7/1.png', 'https://i.ibb.co/X8nbQNq/2.png', 'https://i.ibb.co/R3SxsYt/3.png', 'https://i.ibb.co/NxXDQ02/4.png', 'https://i.ibb.co/87Qb1PV/5.png', 'https://i.ibb.co/QM5RzXd/6.png', 'https://i.ibb.co/rvHD2Nm/Photo-Room-000-20230115-163235.png'],
     code: 'ЛБ',
     price: '46',
   },
@@ -133,13 +133,13 @@ const wreaths = [
   },
   {
     id: 23,
-    images: ['https://i.ibb.co/qB14Tvn/1.png', 'https://i.ibb.co/pX2rp2G/2.png'],
+    images: ['https://i.ibb.co/qB14Tvn/1.png', 'https://i.ibb.co/pX2rp2G/2.png', 'https://i.ibb.co/x2NVyGF/Photo-Room-001-20230115-192628.png', 'https://i.ibb.co/FsqJHbw/Photo-Room-002-20230115-192628.png'],
     code: 'ЧРП-1',
     price: '',
   },
   {
     id: 24,
-    images: ['https://i.ibb.co/J56Jhqr/1.png', 'https://i.ibb.co/Df9WWVh/2.png'],
+    images: ['https://i.ibb.co/J56Jhqr/1.png', 'https://i.ibb.co/Df9WWVh/2.png', 'https://i.ibb.co/PZHRq1Q/Photo-Room-005-20230115-191515.png'],
     code: 'ЧРП-3',
     price: '',
   },
@@ -151,7 +151,7 @@ const wreaths = [
   },
   {
     id: 26,
-    images: ['https://i.ibb.co/3FK9Nhj/1.png', 'https://i.ibb.co/yskvdQB/2.png', 'https://i.ibb.co/MBQFHG7/3.png', 'https://i.ibb.co/PN31j13/4.png', 'https://i.ibb.co/zf2M1YB/Photo-Room-003-20230115-194228.png', 'https://i.ibb.co/0CGBdnS/Photo-Room-004-20230115-194228.png'],
+    images: ['https://i.ibb.co/zf2M1YB/Photo-Room-003-20230115-194228.png', 'https://i.ibb.co/yskvdQB/2.png', 'https://i.ibb.co/MBQFHG7/3.png', 'https://i.ibb.co/PN31j13/4.png', 'https://i.ibb.co/0CGBdnS/Photo-Room-004-20230115-194228.png'],
     code: 'ЯО-3',
     price: '63',
   },
@@ -181,14 +181,8 @@ const wreaths = [
   },
   {
     id: 31,
-    images: ['https://i.ibb.co/k6cWm0x/Photo-Room-001-20230115-161907.png'],
+    images: ['https://i.ibb.co/k6cWm0x/Photo-Room-001-20230115-161907.png', "https://i.ibb.co/DWCxRTJ/Photo-Room-000-20220820-001849-1.png"],
     code: 'КВР-9',
-    price: '',
-  },
-  {
-    id: 32,
-    images: ['https://i.ibb.co/x2NVyGF/Photo-Room-001-20230115-192628.png', 'https://i.ibb.co/FsqJHbw/Photo-Room-002-20230115-192628.png'],
-    code: 'ЧРП-1',
     price: '',
   },
   {
@@ -205,20 +199,14 @@ const wreaths = [
   },
   {
     id: 35,
-    images: ['https://i.ibb.co/n0SLhTc/Photo-Room-005-20230115-163007.png'],
+    images: ['https://i.ibb.co/n0SLhTc/Photo-Room-005-20230115-163007.png', "https://i.ibb.co/dfLMJFg/Photo-Room-001-20220819-213223.png", "https://i.ibb.co/wrRHYvq/Photo-Room-000-20220819-213223.png"],
     code: 'КБ-8',
     price: '',
   },
   {
     id: 36,
-    images: ['https://i.ibb.co/3Rr7CCb/Photo-Room-005-20230115-163646.png'],
+    images: ['https://i.ibb.co/3Rr7CCb/Photo-Room-005-20230115-163646.png', "https://i.ibb.co/59Yq1b0/Photo-Room-001-20230124-230341.png"],
     code: 'ПО',
-    price: '',
-  },
-  {
-    id: 37,
-    images: ['https://i.ibb.co/PZHRq1Q/Photo-Room-005-20230115-191515.png'],
-    code: 'ЧРП-3',
     price: '',
   },
   {
@@ -229,8 +217,14 @@ const wreaths = [
   },
   {
     id: 39,
-    images: ['https://i.ibb.co/K7j7SyK/Photo-Room-006-20230115-194228.png'],
-    code: 'РШ-2',
+    images: ['https://i.ibb.co/K7j7SyK/Photo-Room-006-20230115-194228.png', "https://i.ibb.co/bFXBV0G/Photo-Room-006-20230124-230341.png", "https://i.ibb.co/wsz2gSQ/Photo-Room-007-20230124-230341.png"],
+    code: 'РШТ-2',
+    price: '',
+  },
+  {
+    id: 40,
+    images: ["https://i.ibb.co/q980Ym7/Photo-Room-014-20230124-230341.png", "https://i.ibb.co/mhYqst8/Photo-Room-015-20230124-230341.png", "https://i.ibb.co/SRy6xtj/Photo-Room-016-20230124-230341.png"],
+    code: 'КВР-2',
     price: '',
   },
 ]

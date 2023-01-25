@@ -120,8 +120,11 @@
   background-size: cover;
   filter: brightness(0.8);
 
+  @media (max-width: 1024px) {
+    background-image: url('./images/rose-mobile.png');
+  }
+
   &__logo {
     margin: 0 auto;
-    filter: brightness(0.01);
   }
 }

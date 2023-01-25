@@ -39,8 +39,8 @@
     transition: 0.3s all ease;
 
     &:hover {
-      color: darkcyan;
-      border-color: darkcyan;
+      color: saddlebrown;
+      border-color: saddlebrown;
     }
 
     @media (max-width: 1024px) {
@@ -75,7 +75,7 @@
 
     &:hover {
       svg {
-        fill: darkcyan;
+        fill: saddlebrown;
       }
     }
   }

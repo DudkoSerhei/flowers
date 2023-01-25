@@ -15,8 +15,8 @@ const HomePage = () => (
       </p>
       <p className={styles.text}>
         Наша организация предлагает Вам <b className={styles.text__bold}>ритуальные товары </b>собственного производства.
-        В ассортименте представлены <b className={styles.text__bold}>ритуальные венки</b> и <b className={styles.text__bold}>корзинки</b>, {' '}
-        <b className={styles.text__bold}>искусственные цветы</b> разных размеров, различные <b className={styles.text__bold}>композиции</b>{' '}
+        В ассортименте представлены <b className={styles.text__bold}>ритуальные венки</b> и <b className={styles.text__bold}>корзины</b>, {' '}
+        <b className={styles.text__bold}>искусственные цветы,</b> различные <b className={styles.text__bold}>композиции</b>{' '}
         из исскуственных цветов любого наполнения и в разнообразной цветовой гамме.
       </p>
     </Main>
