@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { SelectChangeEvent } from '@mui/material';
 
 import { Main, Select, WreathsCard } from '../../components';
@@ -16,7 +16,7 @@ const WreathsPage = () => {
   const sortedWreaths = wreaths.sort((first: any, second: any) => {
     if (sort === 'high') return parseFloat(first.price) - parseFloat(second.price);
     if (sort === 'low') return parseFloat(second.price) - parseFloat(first.price);
-    return first.code - second.code;
+    return first.code.localeCompare(second.code);
   });
 
   return (
@@ -40,10 +40,10 @@ const WreathsPage = () => {
           </div>
           <div className={styles.product}>
             {sortedWreaths.map(({
-              id,
+              id = '',
               images = [],
-              code,
-              price,
+              code = '',
+              price = '',
             }) => (
               <WreathsCard
                 className={styles.card}

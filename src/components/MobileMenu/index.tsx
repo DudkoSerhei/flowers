@@ -14,9 +14,11 @@ const MobileMenu = ({ className }: any) => {
 
   useEffect(() => {
     if (isOpen) {
-      document.body.classList.add('stop-scrolling');
+      const x=window.scrollX;
+      const y=window.scrollY;
+      window.onscroll=function(){window.scrollTo(x, y);};
     } else {
-      document.body.classList.remove('stop-scrolling');
+      window.onscroll=function(){};
     };
   }, [isOpen]);
 

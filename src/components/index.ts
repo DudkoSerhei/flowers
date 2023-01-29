@@ -11,3 +11,4 @@ export { default as Banner } from './Banner';
 export { default as ImageView } from './ImageView';
 export { default as Select } from './Select';
 export { default as WreathsCard } from './WreathsCard';
+export { default as Dots } from './Dots';

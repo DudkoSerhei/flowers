@@ -36,6 +36,7 @@
     border-radius: 50%;
     background-image: url('./images/fon.png');
     background-size: cover;
+    filter: drop-shadow(2px 4px 6px #BEBEBE);
 
     @media (max-width: 1024px) {
       margin-bottom: 40px;
@@ -60,5 +61,6 @@
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
+    filter: drop-shadow(2px 4px 6px black);
   }
 }

@@ -59,7 +59,7 @@
     top: 80px;
     left: 100%;
     right: 0;
-    bottom: 0;
+    bottom: -80px;
     z-index: 2;
     background-color: #fff;
     visibility: hidden;
@@ -77,7 +77,7 @@
   &__nav {
     list-style: none;
     padding-top: 24px;
-    height: calc(100vh - 155px);
+    height: calc(100vh - 230px);
   }
 
   &__item {

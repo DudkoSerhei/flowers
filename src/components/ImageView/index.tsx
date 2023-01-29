@@ -5,6 +5,8 @@ import { Dialog, DialogContent, Slide, IconButton } from '@mui/material';
 import { Close } from '@mui/icons-material';
 import { TransitionProps } from '@mui/material/transitions';
 
+import { Dots } from '../index';
+
 import styles from './index.module.scss';
 
 interface ImageViewProps {
@@ -80,6 +82,7 @@ const ImageView = ({ className, images }: ImageViewProps) => {
               {images?.map((img) => (
                 <div className={styles.view__slide}>
                   <img className={styles.view__detailedImage} src={img} alt={`view_${img}`} loading='lazy' />
+                  {images.length > 1 && <Dots currentImage={img} images={images} />}
                 </div>
               ))}
             </Slider>
