@@ -1,11 +1,12 @@
 import React from 'react';
+import cn from 'classnames';
 
 import { Main, Contacts } from '../index';
 
 import styles from './index.module.scss';
 
-const Footer = ({ isContacts = true }) => (
-  <footer className={styles.footer}>
+const Footer = ({ className = '', isContacts = true }) => (
+  <footer className={cn(styles.footer, className)}>
     {isContacts && <Contacts />}
     <div className={styles.footer__wrapper}>
       <Main>

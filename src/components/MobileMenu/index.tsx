@@ -17,8 +17,10 @@ const MobileMenu = ({ className }: any) => {
       const x=window.scrollX;
       const y=window.scrollY;
       window.onscroll=function(){window.scrollTo(x, y);};
+      document.body.classList.add('stop-scrolling');
     } else {
       window.onscroll=function(){};
+      document.body.classList.remove('stop-scrolling');
     };
   }, [isOpen]);
 
@@ -55,7 +57,7 @@ const MobileMenu = ({ className }: any) => {
             </li>
           </nav>
         </Main>
-        <Footer isContacts={false} />
+        <Footer className={styles.menu__footer} isContacts={false} />
       </section>
     </div>
   );

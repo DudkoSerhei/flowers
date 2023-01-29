@@ -66,6 +66,7 @@
     transition: 0.3s all ease;
     opacity: 0;
     overflow: hidden;
+    height: 200vh;
 
     &_open {
       visibility: visible;
@@ -77,7 +78,6 @@
   &__nav {
     list-style: none;
     padding-top: 24px;
-    height: calc(100vh - 230px);
   }
 
   &__item {
@@ -96,5 +96,11 @@
 
   &__logo {
     padding: 9.5px 10px;
+  }
+
+  &__footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
   }
 }
