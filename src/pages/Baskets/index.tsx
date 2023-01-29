@@ -16,7 +16,7 @@ const BasketsPage = () => {
   const sortedBaskets = baskets.sort((first: any, second: any) => {
     if (sort === 'high') return parseFloat(first.price) - parseFloat(second.price);
     if (sort === 'low') return parseFloat(second.price) - parseFloat(first.price);
-    return first.code.localeCompare(second.code);
+    return first.code.localeCompare(second.code, undefined, { numeric: true });
   });
 
   return (
@@ -44,6 +44,7 @@ const BasketsPage = () => {
               images = [],
               code,
               price,
+              size,
             }) => (
               <WreathsCard
                 className={styles.card}
@@ -51,6 +52,7 @@ const BasketsPage = () => {
                 images={images}
                 code={code}
                 price={price}
+                size={size}
               />
             ))}
           </div>

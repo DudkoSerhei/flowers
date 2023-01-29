@@ -12,6 +12,7 @@ import styles from './index.module.scss';
 interface ImageViewProps {
   className?: string,
   images: string[];
+  size?: string;
 };
 
 const Transition = React.forwardRef(function Transition(
@@ -52,7 +53,7 @@ const settings = {
   nextArrow: <NextArrow />,
 };
 
-const ImageView = ({ className, images }: ImageViewProps) => {
+const ImageView = ({ className, images, size = '' }: ImageViewProps) => {
   const [isFullView, setFullView] = useState(false);
 
   const handleOpen = () => setFullView(true);
@@ -63,6 +64,7 @@ const ImageView = ({ className, images }: ImageViewProps) => {
     <>
       <button className={cn(styles.view__button)} type='button' onClick={handleOpen}>
         <img className={cn(styles.view__img, className)} src={images[0]} alt={`view_${images[0]}`} loading='lazy' />
+        <span className={styles.view__size}>{`${size}см`}</span>
       </button>
       {isFullView &&
         <Dialog

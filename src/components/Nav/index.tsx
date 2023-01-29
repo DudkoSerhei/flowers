@@ -22,7 +22,7 @@ const Navigation = ({ className }: any) => {
         <NavLink className={styles.link} to={ROUTES.FLOWERS}>Цветы искусственные</NavLink>
       </li>
       <li className={styles.item}>
-        <NavLink className={styles.link} to={ROUTES.COMPOSITIONS}>Композиции (икебана)</NavLink>
+        <NavLink className={styles.link} to={ROUTES.COMPOSITIONS}>Композиции в горшках</NavLink>
       </li>
     </nav>
   )

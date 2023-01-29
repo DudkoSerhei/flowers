@@ -53,7 +53,7 @@ const MobileMenu = ({ className }: any) => {
               <NavLink className={styles.menu__link} to={ROUTES.FLOWERS} onClick={toggleMenu}>Цветы искусственные</NavLink>
             </li>
             <li className={styles.menu__item}>
-              <NavLink className={styles.menu__link} to={ROUTES.COMPOSITIONS} onClick={toggleMenu}>Композиции (икебана)</NavLink>
+              <NavLink className={styles.menu__link} to={ROUTES.COMPOSITIONS} onClick={toggleMenu}>Композиции в горшках</NavLink>
             </li>
           </nav>
         </Main>

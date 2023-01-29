@@ -10,12 +10,13 @@ interface Props {
   images: string[];
   code: string;
   price: string;
+  size?: string;
 };
 
 
-const WreathsCard = ({className, images, code, price}:Props) => (
+const WreathsCard = ({className, images, code, price, size }:Props) => (
   <div className={cn(styles.wreaths, className)}>
-    <ImageView images={images} />
+    <ImageView images={images} size={size} />
     <div className={styles.wreaths__info}>
       <p className={styles.wreaths__code}>{code}</p>
       {price &&
