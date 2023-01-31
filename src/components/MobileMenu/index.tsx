@@ -1,16 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import cn from 'classnames';
 import { NavLink } from 'react-router-dom';
 
 import { Main, Footer } from '../index';
 import { ROUTES } from '../../const';
+import { FlowersContext } from '../context';
 
 import styles from './index.module.scss';
 
 const MobileMenu = ({ className }: any) => {
-  const [isOpen, setOpen] = useState(false);
-
-  const toggleMenu = () => setOpen((prev) => !prev);
+  const { open: isOpen, toggleOpen: toggleMenu } = useContext(FlowersContext);
 
   useEffect(() => {
     if (isOpen) {

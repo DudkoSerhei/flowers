@@ -1,8 +1,6 @@
 import React from 'react';
 
 import { Main } from '../../components';
-import FlowersCard from '../../components/FlowersCard';
-import flowers from '../../const/flowers';
 
 import styles from './index.module.scss';
 

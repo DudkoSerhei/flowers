@@ -16,7 +16,7 @@ const baskets = [
   {
     id: 3,
     images: ['https://i.ibb.co/zxL26q3/Photo-Room-002-20230115-232134.png', "https://i.ibb.co/1bNvW44/Photo-Room-013-20230124-230341.png"],
-    code: 'СЛ-2Р (антур)',
+    code: 'СЛ-2р (ант)',
     price: '',
     size: '100x63',
   },
