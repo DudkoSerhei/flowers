@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.91e8ba78.css",
-    "main.js": "/static/js/main.1890899a.js",
+    "main.js": "/static/js/main.cbc40c23.js",
     "static/media/rose.png": "/static/media/rose.ea3ee6ae4c327fa776c1.png",
     "static/media/fon.png": "/static/media/fon.309e7faf719b4d2422ad.png",
     "static/media/rose-mobile.png": "/static/media/rose-mobile.aebe92e25a367f195843.png",
@@ -13,10 +13,10 @@
     "static/media/price.svg": "/static/media/price.8de2969a71daf67abafccbe405cfc105.svg",
     "static/media/work.svg": "/static/media/work.5c191e1157e137157c03deefcd52fd45.svg",
     "main.91e8ba78.css.map": "/static/css/main.91e8ba78.css.map",
-    "main.1890899a.js.map": "/static/js/main.1890899a.js.map"
+    "main.cbc40c23.js.map": "/static/js/main.cbc40c23.js.map"
   },
   "entrypoints": [
     "static/css/main.91e8ba78.css",
-    "static/js/main.1890899a.js"
+    "static/js/main.cbc40c23.js"
   ]
 }
