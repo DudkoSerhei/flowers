@@ -9,14 +9,9 @@ const App: FC = () => {
     url: 'https://okvenok.by',
     title:  'okvenok',
     datePublished: '2023-01-01T00:00:00.123Z',
-    description: 'Ритуальные венки, корзины, композиции из искусственных цветов собственного производства по доступным ценам. ИП Поведайко В.М.',
+    description: 'Ритуальные венки оптом, корзины, композиции из искусственных цветов собственного производства по доступным ценам.',
     language: 'ru-RU',
     image: 'https://okvenok.by/logo.png',
-    author: {
-      email: 'povedaichik@mail.ru',
-      name: 'Виктор Поведайко',
-      image: 'https://okvenok.by/logo.png',
-    },
     site: {
       siteName: 'okvenok',
       searchUrl: 'https://www.google.com/search?q=okvenok',

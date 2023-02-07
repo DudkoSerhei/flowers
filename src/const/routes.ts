@@ -1,4 +1,7 @@
-const prefix = document.URL.startsWith('https://dudkoserhei.github.io/flowers/') ? '/flowers' : ''; /* This is prefix for github.pages.io */
+// const debug = process.env.NODE_ENV !== 'production';
+// const prefix = !debug ? '/flowers' : ''; /* This is prefix for github.pages.io */
+
+const prefix = '';
 
 const ROUTES = {
   ROOT: `${prefix}`,

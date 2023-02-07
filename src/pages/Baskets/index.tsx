@@ -7,7 +7,7 @@ import baskets from '../../const/baskets';
 import styles from './index.module.scss';
 
 const BasketsPage = () => {
-  const [sort, setSort] = useState('default');
+  const [sort, setSort] = useState('high');
 
   const handleChange = (event: SelectChangeEvent) => {
     setSort(event.target.value);
